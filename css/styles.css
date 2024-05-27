@@ -1,0 +1,75 @@
+body {
+  font-family: "DM Serif Display";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  border: 2px solid black;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  margin-top: 20vh;
+}
+
+h1 {
+  text-align: center;
+  margin: 0px auto 30px auto;
+  font-weight: 100;
+}
+
+.mood-box-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+  padding: 10px;
+  justify-content: center;
+}
+
+.mood-box {
+  width: 30%;
+  margin: 10px 30px;
+  display: flex;
+  align-items: center;
+}
+
+.color-box {
+  height: 20px;
+  aspect-ratio: 3/2;
+  margin-right: 15px;
+}
+
+#yellow {
+  background-color: rgb(255, 235, 54);
+}
+
+#green {
+  background-color: green;
+}
+
+#pink {
+  background-color: pink;
+}
+
+#purple {
+  background-color: blueviolet;
+}
+
+#red {
+  background-color: red;
+}
+
+#blue {
+  background-color: blue;
+}
+
+.mood {
+  font-size: 1.2rem;
+  text-transform:uppercase;
+  font-weight: 100;
+}
+
+
